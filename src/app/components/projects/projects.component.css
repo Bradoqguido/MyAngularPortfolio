@@ -17,3 +17,31 @@ svg {
   text-align: center;
   padding: 5px;
 }
+
+mat-grid-list {
+  height: 800px;
+}
+
+@media only screen and (max-width: 500px) {
+  mat-grid-list {
+    height: 2250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  mat-grid-list {
+    height: 2000px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  mat-grid-list {
+    height: 1800px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  mat-grid-list {
+    height: 1600px;
+  }
+}

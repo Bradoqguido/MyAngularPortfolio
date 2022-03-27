@@ -25,7 +25,6 @@ export class SkillsComponent implements OnInit {
     { name: 'HTML', imgURL: 'https://cdn.iconscout.com/icon/free/png-' + this.imgHeight + '/html-59-225995.png' },
     { name: 'Java Script', imgURL: 'https://cdn.iconscout.com/icon/free/png-' + this.imgHeight + '/logo-1889528-1597588.png' },
     { name: 'Python', imgURL: 'https://cdn.iconscout.com/icon/free/png-' + this.imgHeight + '/python-14-569257.png' },
-    { name: 'MVP Deployment', imgURL: 'https://cdn.iconscout.com/icon/premium/png-' + this.imgHeight + '-thumb/mvp-2-1098619.png' },
     { name: 'PostgreSQL', imgURL: 'https://cdn.iconscout.com/icon/free/png-' + this.imgHeight + '/postgresql-226047.png' },
     { name: 'GitHub', imgURL: 'https://cdn.iconscout.com/icon/free/png-' + this.imgHeight + '/git-1-226092.png'},
     { name: 'MapBox', imgURL: 'assets/images/location-48x48.png'},

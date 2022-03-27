@@ -1,18 +1,24 @@
 <mat-card style="text-align: center">
   <h3>My Projects</h3>
-  <div class="projectsContainer" *ngFor="let project of projects">
+  <div>
 
-    <mat-card class="projectsContent">
-      <img [src]="project.imgURL">
-      <div>
-        <h4><p>{{project.name}}</p></h4>
-        <div class="projectsContent" *ngFor="let p of project.detailsParagraphs">
-          <p >{{p}}</p>
-        </div>
-      </div>
-      <h4>Access here:</h4>
-      <a mat-flat-button href="{{project.url}}" target="_blank">{{project.url}}</a>
-    </mat-card>
+    <mat-grid-list [cols]="gridColumnSize" rowHeight="fit" (window:resize)="onResize($event)">
+
+      <mat-grid-tile *ngFor="let project of projects">
+        <mat-card class="projectsContent">
+          <img [src]="project.imgURL">
+          <div>
+            <h4><p>{{project.name}}</p></h4>
+            <div class="projectsContent" *ngFor="let p of project.detailsParagraphs">
+              <p >{{p}}</p>
+            </div>
+          </div>
+          <h4>Access here:</h4>
+          <a mat-flat-button href="{{project.url}}" target="_blank">{{project.url}}</a>
+        </mat-card>
+      </mat-grid-tile>
+
+    </mat-grid-list>
 
   </div>
 </mat-card>

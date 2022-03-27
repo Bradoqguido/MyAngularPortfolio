@@ -19,6 +19,9 @@ export class ProjectsComponent implements OnInit {
   // accepted heights: 16, 24, 32, 48, 64, 96 ...
   imgHeight = 48;
 
+  // GridList column size
+  gridColumnSize = 3;
+
   projects: projectsInterface[] = [
     {
       name: 'Hackathon Online Management App',
@@ -69,6 +72,11 @@ export class ProjectsComponent implements OnInit {
   ];
 
   ngOnInit() {
+    this.gridColumnSize = (window.innerWidth <= 1024) ? 1 : 3;
+  }
+
+  onResize(event: any) {
+    this.gridColumnSize = (event.target.innerWidth <= 1024) ? 1 : 3;
   }
 
 }
