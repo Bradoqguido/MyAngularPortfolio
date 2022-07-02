@@ -28,7 +28,7 @@ export class ProjectsComponent implements OnInit {
       imgURL: 'assets/images/android-icon-48x48.png',
       detailsParagraphs: [
         'Hackathon Online management application for in-person and online events.',
-        'Developed in angular with material design and firebase firestore.',
+        'Developed in angular with material design and firebase Firestore.',
       ],
       url: 'https://hackathon-online.web.app'
     },
@@ -36,9 +36,8 @@ export class ProjectsComponent implements OnInit {
       name: 'Pizzaria Management App',
       imgURL: 'assets/images/pizza-48x48.png',
       detailsParagraphs: [
-        'Management application for Pizzarias with stock, grade, products, person access controls.',
-        'Developed in angular with material design and firebase firestore.',
-        'Comming soon: DashBoards, DRE, Payments (With Mercado Pago API).'
+        'Management application for Pizzerias with stock, grade, products, person access controls.',
+        'Developed in angular with material design and firebase Firestore.'
       ],
       url: 'https://ctrl-pizza.web.app'
     },
@@ -47,7 +46,7 @@ export class ProjectsComponent implements OnInit {
       imgURL: 'assets/images/location-48x48.png',
       detailsParagraphs: [
         'Application that allows to mark places in the map with the name you own, and navigate over then.',
-        'Developed in angular with material design and firebase firestore.'
+        'Developed in angular with material design and firebase Firestore.'
       ],
       url: 'https://ng-mapbox.web.app/map'
     },
@@ -64,7 +63,7 @@ export class ProjectsComponent implements OnInit {
       name: 'Point Register Application',
       imgURL: 'assets/images/baseline_access_alarm_black_48.png',
       detailsParagraphs: [
-        'Application that allows to resgistre the time what you work.',
+        'Application that allows to register the time what you work.',
         'Developed in C#.'
       ],
       url: 'https://github.com/Bradoqguido/MarcadorDePonto'

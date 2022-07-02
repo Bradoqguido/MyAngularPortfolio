@@ -1,4 +1,5 @@
 .detailsContainer {
+  display: inline-block;
   position: relative;
 }
 

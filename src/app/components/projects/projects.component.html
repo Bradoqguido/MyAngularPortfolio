@@ -1,5 +1,7 @@
 <mat-card style="text-align: center">
-  <h3>My Projects</h3>
+  <mat-card-header>
+      <mat-card-title>My Projects</mat-card-title>
+  </mat-card-header>
   <div>
 
     <mat-grid-list [cols]="gridColumnSize" rowHeight="fit" (window:resize)="onResize($event)">
